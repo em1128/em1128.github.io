@@ -1,1 +1,66 @@
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum labore aperiam iste ipsam, illum ipsum commodi nisi iusto! Voluptas nulla repellendus maxime velit, ullam corrupti suscipit quas fugiat recusandae nesciunt?
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameTogether</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="home.css">
+  <script src="https://kit.fontawesome.com/fc5db67718.js" crossorigin="anonymous"></script>
+  <script src="js/header.js" defer></script>
+  <script src="js/search_tab.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <i class="far fa-handshake">
+        <a href="#">게임 투게더</a> 
+      </i>
+    </div>
+
+    <button>
+      <a href="#" onclick="window.open('login.html','register','width=900,height=600')">
+        로그인
+      </a>
+    </button>
+  </header>
+
+  <!-- Home -->
+  <section class="home">
+
+  </section>
+  <form class="search_form" method="POST">
+    <div class="search_form_area">
+      <input type="text" name="userName" class="user_name_search_form" placeholder="사용자명" id="userName"
+        autocomplete="off" autofocus>
+      <div id="tab_menu">
+        <span> 최근검색</span> <span> 즐겨찾기</span>
+      </div>
+    </div>
+    <button type="submit" class="user_name_search_form__button">
+      <i class="fas fa-search"></i>
+    </button>
+  </form>
+  <div class="main_article">
+    <p> 게임을 좋아하고 즐기는 사람들이 모이는 곳</p>
+    <p id="title"><b> 게임투게더</b></p>
+
+    <a id="desc" href="desc.html">→ 자세히 알아보기</a>
+
+  </div>
+
+  <!-- About -->
+  <section class="about">
+
+  </section>
+  <div class="select_menu">
+    <p> <a href="tip.html">공략과 팁</a></p>
+    <p> <a href="recommend.html">캐릭터 추천</a></p>
+  </div>
+
+</body>
+
+</html>
